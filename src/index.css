@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  color: #1a1a1a;
+}
+a {
+  text-decoration: none;
+}
+
+code {
+ font-family: 'Inter', sans-serif;
+}
+.mymodal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      overflow: auto;
+      border-radius: 4px;
+      outline: none;
+      padding: 20px;
+      width: 50%;
+      height: 50%;
+    }
+
+    .myoverlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .ReactModal__Overlay {
+      opacity: 0;
+      transition: opacity 500ms ease-in-out;
+    }
+
+    .ReactModal__Overlay--after-open {
+      opacity: 1;
+    }
+
+    .ReactModal__Overlay--before-close {
+      opacity: 0;
+    }

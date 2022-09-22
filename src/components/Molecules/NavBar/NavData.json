@@ -1,0 +1,15 @@
+{
+  "unregistered": [
+    { "path": "/", "text": "Home", "fill": "" },
+    { "path": "/", "text": "Our Locations", "fill": "" },
+    { "path": "/", "text": "Contact Us", "fill": "" },
+    { "path": "/signup", "text": "Sign Up as Rider", "fill": "fill" }
+  ],
+  "registered": [
+    { "path": "/", "text": "Home", "fill": "" },
+    { "path": "/location", "text": "My Location", "fill": "" },
+    { "path": "/my_deliveries", "text": "My Deliveries", "fill": "" },
+    { "path": "/my_request", "text": "Requests", "fill": "" },
+    { "path": "/profile", "text": "dp", "fill": "" }
+  ]
+}

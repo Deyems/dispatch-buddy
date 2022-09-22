@@ -1,0 +1,40 @@
+{
+  "deliveries": [
+    {
+      "name": "Uche Okoro",
+      "price": "N3,500",
+      "weight": "3kg",
+      "location": "Ikeja, Lagos"
+    },
+    {
+      "name": "Uche Okoro",
+      "price": "N6,500",
+      "weight": "5kg",
+      "location": "Surulere, Lagos"
+    },
+    {
+      "name": "Smart Young",
+      "price": "N1,000",
+      "weight": "0.5kg",
+      "location": "Oshodi, Lagos"
+    },
+    {
+      "name": "Uche Splash",
+      "price": "N32,500",
+      "weight": "6kg",
+      "location": "Ikorodu, Lagos"
+    },
+    {
+      "name": "Smart Young",
+      "price": "N1,000",
+      "weight": "0.5kg",
+      "location": "Oshodi, Lagos"
+    },
+    {
+      "name": "Uche Splash",
+      "price": "N32,500",
+      "weight": "6kg",
+      "location": "Ikorodu, Lagos"
+    }
+  ]
+}
