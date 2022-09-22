@@ -13,9 +13,6 @@ const Button = styled.button`
   margin-top: 1.14rem;
   cursor: pointer;
   :hover{
-    background: ${(props) =>
-      props.outlined || props.icon ? "#580AFF" : "#FFFFFF"};
-    color: ${(props) => (props.outlined || props.icon ? "#FFFFFF" : "#580AFF")};
   }
   transition: background 0.05s;
 `;
